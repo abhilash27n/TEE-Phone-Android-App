@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/Date_Time"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/ic_datetime"
+            android:layout_weight="1"
+            android:text="Date and Time" />
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/Msg_Read"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/ic_message"
+            android:layout_weight="1"
+            android:text="Message Reader" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <Button
+            android:id="@+id/Music"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/ic_musicplayer"
+            android:layout_weight="1"
+            android:text="Music" />
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <Button
+            android:id="@+id/Camera"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/ic_camera"
+            android:layout_weight="1"
+            android:text="Camera" />
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout><!-- From: file:/H:/Software/Android/AndroidStudioProjects/BCallTest1/app/src/main/res/layout/extra.xml -->

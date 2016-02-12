@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/H:/Software/Android/AndroidStudioProjects/BCallTest1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="gesture_color">#FFFFFF00</color>
+    <!-- From: file:/H:/Software/Android/AndroidStudioProjects/BCallTest1/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="gesture_thumbnail_inset">8dip</dimen>
+    <dimen name="gesture_thumbnail_size">64dip</dimen>
+    <!-- From: file:/H:/Software/Android/AndroidStudioProjects/BCallTest1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Back">Back Space</string>
+    <string name="Call">Call</string>
+    <string name="Eight">8</string>
+    <string name="Five">5</string>
+    <string name="Four">4</string>
+    <string name="Hash">#</string>
+    <string name="Nine">9</string>
+    <string name="One">1</string>
+    <string name="Seven">7</string>
+    <string name="Six">6</string>
+    <string name="Star">*</string>
+    <string name="Three">3</string>
+    <string name="Two">2</string>
+    <string name="Zero">0</string>
+    <string name="app_name">TEE-Phone</string>
+    <string name="application_name">Gestures Builder</string>
+    <string name="button_add">Add gesture</string>
+    <string name="button_discard">Discard</string>
+    <string name="button_done">Done</string>
+    <string name="button_reload">Reload</string>
+    <string name="cancel_action">Cancel</string>
+    <string name="error_missing_name">You must enter a name</string>
+    <string name="gestures_activity">Gestures</string>
+    <string name="gestures_delete">Delete</string>
+    <string name="gestures_delete_success">Gesture deleted</string>
+    <string name="gestures_empty">No gestures</string>
+    <string name="gestures_error_loading">Could not load %s. Make sure you have a mounted SD card.</string>
+    <string name="gestures_loading">Loading gestures...</string>
+    <string name="gestures_rename">Rename</string>
+    <string name="gestures_rename_label">Gesture name</string>
+    <string name="gestures_rename_title">Rename gesture</string>
+    <string name="hello">Hello World, Dialerpad!</string>
+    <string name="label_create_gesture">Create a gesture</string>
+    <string name="prompt">Dial Number</string>
+    <string name="prompt_gesture_name">Name</string>
+    <string name="rename_action">OK</string>
+    <string name="save_success">Gesture saved in %s</string>
+</resources>

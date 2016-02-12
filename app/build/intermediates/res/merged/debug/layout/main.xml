@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:baselineAligned="false" >
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/DialPadButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/ic_dialpad"
+            android:layout_weight="1"
+            android:text="Dial Pad" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" >
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/ContactListButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/ic_contact"
+            android:layout_weight="1"
+            android:text="Contact List" />
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" >
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/GestureRecogButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/ic_gesture"
+            android:layout_weight="1"
+            android:text="Gesture Recognition" />
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <Button
+            android:id="@+id/ExtraButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/ic_extra"
+            android:layout_weight="1"
+            android:text="Extra" />
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <Button
+            android:id="@+id/PreferenceButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/ic_preferences"
+            android:layout_weight="1"
+            android:text="Preferences" />
+
+    </TableLayout>
+
+</LinearLayout><!-- From: file:/H:/Software/Android/AndroidStudioProjects/BCallTest1/app/src/main/res/layout/main.xml -->
